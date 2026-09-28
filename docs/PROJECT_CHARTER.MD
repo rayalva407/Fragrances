@@ -1,8 +1,8 @@
 # Project Charter: Fragrances 
 
-**Author:** Raymundo Alva
-**Date:** 09/27/2026
-**Version:** 1.0
+**Author:** Raymundo Alva\
+**Date:** 09/27/2026\
+**Version:** 1.0\
 **Status:** Approved
 
 ---
