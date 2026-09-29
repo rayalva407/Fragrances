@@ -312,3 +312,42 @@ As a shopper, I want to see a confirmation once my order has been placed so that
 **Estimate:** 3-4 hrs
 
 ---
+
+### EP-5: Orders
+
+---
+
+**US-5.1 -- View Order History**
+
+As a logged-in user, I want to view past orders so that I can reorder and review my purchases.
+
+**Acceptance Criteria:**
+
+- While logged in, after visiting the order history page, I should see a list of my previous orders from newest to oldest with a date, total and status.
+- Given I don't have any orders, I should see an empty state with a friendly message.
+
+**Priority:** Must
+**Estimate:** 3-4 hrs
+
+**US-5.2 -- View Order Details**
+
+As a logged-in user, I want to be able to select a single order from order history so that I can review what I previously bought.
+
+**Acceptance Criteria:**
+
+- Given I'm on the order history page, I should be able to select one single order and be redirected to the order details page where I can see variant details, quantities, items, totals and delivery address.
+- Given I try to view other user's order, my access should be denied.
+
+**Priority:** Must
+**Estimate:** 3-4 hrs
+
+**US-5.3 -- Order Status**
+
+**Acceptance Criteria:**
+- As a shopper, I should be able to see my order status so that I know if it has been delivered.
+- Given that the status is updated, then the shopper sees the changes when page refreshes.
+
+**Priority:** Should
+**Estimate:** 2-3 hrs
+
+---
