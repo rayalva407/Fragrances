@@ -188,7 +188,7 @@ As a shopper, I should be able to add variants to my cart for purchase.
 - When adding a variant that is already present on the cart, the variant count should increase instead of creating a duplicate line
 - If I'm not logged in, when I add to cart, the cart is stored locally and merged on login.
 
-**Priority:** Must
+**Priority:** Must\
 **Estimate** 4-6 hrs
 
 ---
@@ -217,7 +217,7 @@ As a shopper, I should be able to change the quantity of items in order to purch
 - If I decrease the quantity to zero, the item should be removed from the cart completely.
 - If I try to add a quantity that is over the item's current stock, then I should see an error showing that the item is capped at the stock amount.
 
-**Priority:** Must
+**Priority:** Must\
 **Estimate:** 3-4 hours
 
 ---
@@ -231,7 +231,7 @@ As a shopper, want to remove items so that I can exclude unwanted items.
 - If I'm in my cart, when clicking remove on an item, the item should be deleted and the subtotal should update.
 - If I remove the last item, then the screen should update to the empty state
 
-**Priority:** Must
+**Priority:** Must\
 **Estimate:** 1-2 hrs
 
 ---
@@ -245,7 +245,7 @@ As a logged-in user, I want my cart to persists across sessions so that I don't 
 - If I'm logged and I have items in my cart, when I close and reopen the app, my cart should keep all items and remain unchanged.
 - If I'm not logged in and have a cart (guest user), when I log in, the guest cart should merge into my logged-in account cart.
 
-**Priority:** Should
+**Priority:** Should\
 **Estimate:** 4-6 hrs
 
 ---
@@ -263,7 +263,7 @@ As a shopper, I want to enter my delivery address so that my order can be delive
 - If I'm in checkout page, when I enter my delivery address, the address fields should include street, city, state, and zip, and should be validated.
 - If the zip code I enter is outside of the local delivery area then I should get a message saying "Delivery is not available in your area" and I am unable to checkout.
 
-**Priority:** Must
+**Priority:** Must\
 **Estimate:** 4-6 hrs
 
 ---
@@ -278,7 +278,7 @@ As the system, I want to validate that address is within the delivery zone so th
 - When a user enters an ineligible zip code, then the checkout is blocked and a clear message is displayed.
 - Given the zip code list is config-based, then I can update the list without changing code.
 
-**Priority:** Must
+**Priority:** Must\
 **Estimate:** 3-4 hrs
 
 ---
@@ -294,7 +294,7 @@ As a shopper, I want to be able to pay with a credit/debit card so that I can co
 - Given that I provide a decline test card, then my payment is unsuccessful and I'm given a clear message that my payment did not complete and redirected to retry.
 - Given that the payment succeeded, then an order should be created and stored in a database with a "placed" status.
 
-**Priority:** Must
+**Priority:** Must\
 **Estimate:** 8-12 hrs
 
 ---
@@ -308,7 +308,7 @@ As a shopper, I want to see a confirmation once my order has been placed so that
 - Given that my payment is complete, I am redirected to a page that shows a confirmation page with an order number, items ordered, total amount and delivery address.
 - Given that I'm on the confirmation page, I am shown a link to navigate to the order history.
 
-**Priority:** Must
+**Priority:** Must\
 **Estimate:** 3-4 hrs
 
 ---
@@ -326,7 +326,7 @@ As a logged-in user, I want to view past orders so that I can reorder and review
 - While logged in, after visiting the order history page, I should see a list of my previous orders from newest to oldest with a date, total and status.
 - Given I don't have any orders, I should see an empty state with a friendly message.
 
-**Priority:** Must
+**Priority:** Must\
 **Estimate:** 3-4 hrs
 
 **US-5.2 -- View Order Details**
@@ -338,7 +338,7 @@ As a logged-in user, I want to be able to select a single order from order histo
 - Given I'm on the order history page, I should be able to select one single order and be redirected to the order details page where I can see variant details, quantities, items, totals and delivery address.
 - Given I try to view other user's order, my access should be denied.
 
-**Priority:** Must
+**Priority:** Must\
 **Estimate:** 3-4 hrs
 
 **US-5.3 -- Order Status**
@@ -347,7 +347,7 @@ As a logged-in user, I want to be able to select a single order from order histo
 - As a shopper, I should be able to see my order status so that I know if it has been delivered.
 - Given that the status is updated, then the shopper sees the changes when page refreshes.
 
-**Priority:** Should
+**Priority:** Should\
 **Estimate:** 2-3 hrs
 
 ---
