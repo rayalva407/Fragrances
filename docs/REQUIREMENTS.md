@@ -351,3 +351,64 @@ As a logged-in user, I want to be able to select a single order from order histo
 **Estimate:** 2-3 hrs
 
 ---
+
+### EP-6: Admin
+
+---
+
+**US-6.1 -- Admin Product CRUD**
+
+As an admin, I want to add, view, update and delete products so that I can maintain the catalog.
+
+**Acceptance Criteria:**
+
+- Given I'm an admin, when I create a product, then that product should immediately show on the storefront for all users.
+- Given I edit a product, when I edit that product, then those changes should be visible on the storefront for all users.
+- Given I delete a product, when that product has been deleted, then the product should no longer show on the storefront, but it should still show on previous orders.
+
+**Priority:** Should\
+**Estimate:** 6-8 hrs
+
+---
+
+**US-6.2 -- Manage Variants**
+
+As an admin, I want to manage product variants (size, stock, price) so that the inventory is accurate.
+
+**Acceptance Criteria:**
+
+- Given I'm editing a product, when adding a variant, then the variant should be available for purchase.
+- Given I update the product stock, when the stock amount is changes, then the change should reflect on the storefront immediately.
+- Given the stock reaches zero, then the variant should show as out of stock.
+
+**Priority:** Should\
+**Estimate:** 4-6 hrs
+
+---
+
+**US-6.3 -- Update Order Status**
+
+As an admin, I want to change the order status to delivered so that the customer sees an accurate order status.
+
+**Acceptance Criteria:**
+
+- Given I change an order status to delivered, then the customer should be notified and also see the up-to-date status on their end.
+
+**Priority:** Should\
+**Estimate:** 2-3 hrs
+
+---
+
+**US-6.4 -- Seed Data**
+
+- As a developer, I want to use a script that loads realistic product data so that the application looks like a production-ready application.
+
+**Acceptance Criteria:**
+
+- Given an empty database, when I run the seed script, I should see up to 30 fragrances with variants, images and metadata are created and saved to the database.
+- Given seed data exists, then the catalog should render like a real-world application without adding data manually.
+
+**Priority:** Must\
+**Estimate:** 4-6 hrs
+
+---
