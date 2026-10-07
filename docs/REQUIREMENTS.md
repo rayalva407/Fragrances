@@ -412,3 +412,46 @@ As an admin, I want to change the order status to delivered so that the customer
 **Estimate:** 4-6 hrs
 
 ---
+
+## 4. Non-Functional Requirements
+
+| ID | Requirements | Target |
+|----|--------------|--------|
+| NFR-1 | Page load time | <2s on a typical connection |
+| NFR-2 | Responsive Design | Works and looks good on mobile and desktop views |
+| NFR-3 | Authentication | Hashed passwords using (Bcrypt) and JWT tokens |
+| NFR-4 | Error Handling | Errors show human readable message and handled gracefully |
+| NFR-5 | API documentation | OpenAPI |
+| NFR-6 | Accessibility | Semantic HTML on website; ability to navigate with keyboard |
+ 
+ ---
+
+ ## 5. Out of Scope (v1)
+
+ Out of scope items are outlined in the project charter and included here for easy reference:
+
+ - Full featured real payment processing (Only Stripe test mode)
+ - Shipping outside of local delivery zones
+ - Marketplace / Multi-vendor capabilities
+ - Native app store deployment (Starting with weg page only)
+ - Reviews, ratings, recommendations
+ - Subscriptions or loyalty rewards
+
+ ---
+
+ ## 6. Under Consideration
+
+ These are a few decisions and details that need to be considered:
+
+ - [] Which Strip Integration: Checkout (Hosted) or Payment Element (Embedded)?
+ - [] Options for configuring the local deliver zone include env variable, DB table, or config file.
+ - [] Will admin account be a separate route or just a seeded account?
+ - [] Should guest cart be implemented?
+
+ ---
+
+ ## 7. Revision History
+
+ | Version | Date | Author | Changes |
+ |---------|------|--------|---------|
+ | 1.0 | 10/07/2026 | Raymundo Alva | Initial Draft |
