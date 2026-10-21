@@ -46,7 +46,7 @@ This document defines the functional and non-functional requirements for the Fra
 
 As a shopper I should be able to browse the product catalog so that I can discover available fragrances.
 
-**Acceptable Criteria:**
+**Acceptance Criteria:**
 
 - From the catalog page, when the page loads, I should see a list of products with an image, brand and pricing for each product.
 - If there are more than 12 products in the catalog, when the page loads, the products should be paginated or lazy loaded.
@@ -59,7 +59,7 @@ As a shopper I should be able to browse the product catalog so that I can discov
 
 **US-1.2 -- View Product Detail**
 
-As a shopper, should be able to view a product's full details so I can make an informed choice and decide wether I want to buy the product.
+As a shopper, should be able to view a product's full details so I can make an informed choice and decide whether I want to buy the product.
 
 **Acceptance Criteria:**
 
@@ -120,7 +120,7 @@ As a shopper, I should be able to filter products by name, price, brand and othe
 
 As a new user, I want to create an account so that I save my cart and view order history.
 
-**Acceptable Criteria:**
+**Acceptance Criteria:**
 
 - While on the registration page, when I submit a valid username and password, my account should be successfully created and I should be automatically logged in.
 - If I submit an email that already exists, I should see a clear error message.
@@ -135,11 +135,11 @@ As a new user, I want to create an account so that I save my cart and view order
 
 As a returning user, I should be able to log in so that I can see my order history and saved cart.
 
-**Acceptable Criteria:**
+**Acceptance Criteria:**
 
 - While on the login page, after submitting valid credentials, I should be successfully logged in and redirected to the catalog page
 - When submitting invalid credentials, I should see a generic error ("Invalid username or password") to avoid hinting at which field was incorrect.
-- While logged in, if I close and reopen the app, I should remain logged in (token persistance).
+- While logged in, if I close and reopen the app, I should remain logged in (token persistence).
 
 **Priority:** Must\
 **Estimate:** 4-6 hrs
@@ -189,7 +189,7 @@ As a shopper, I should be able to add variants to my cart for purchase.
 - If I'm not logged in, when I add to cart, the cart is stored locally and merged on login.
 
 **Priority:** Must\
-**Estimate** 4-6 hrs
+**Estimate:** 4-6 hrs
 
 ---
 
@@ -213,7 +213,7 @@ As a shopper, I should be able to change the quantity of items in order to purch
 
 **Acceptance Criteria:**
 
-- If I'm in my cart, when increaing the quantity of an item, then the line total and the cart subtotal should update.
+- If I'm in my cart, when increasing the quantity of an item, then the line total and the cart subtotal should update.
 - If I decrease the quantity to zero, the item should be removed from the cart completely.
 - If I try to add a quantity that is over the item's current stock, then I should see an error showing that the item is capped at the stock amount.
 
@@ -236,7 +236,7 @@ As a shopper, want to remove items so that I can exclude unwanted items.
 
 ---
 
-**US-3.5 -- Persisten Cart**
+**US-3.5 -- Persistent Cart**
 
 As a logged-in user, I want my cart to persists across sessions so that I don't lose my cart items when logging in/out of my account or closing and reopening the app.
 
@@ -434,7 +434,7 @@ As a developer, I want to use a script that loads realistic product data so that
  - Full featured real payment processing (Only Stripe test mode)
  - Shipping outside of local delivery zones
  - Marketplace / Multi-vendor capabilities
- - Native app store deployment (Starting with weg page only)
+ - Native app store deployment (Starting with web page only)
  - Reviews, ratings, recommendations
  - Subscriptions or loyalty rewards
 
@@ -444,8 +444,8 @@ As a developer, I want to use a script that loads realistic product data so that
 
  These are a few decisions and details that need to be considered:
 
- - [] Which Strip Integration: Checkout (Hosted) or Payment Element (Embedded)?
- - [] Options for configuring the local deliver zone include env variable, DB table, or config file.
+ - [] Which Stripe Integration: Checkout (Hosted) or Payment Element (Embedded)?
+ - [] Options for configuring the local delivery zone include env variable, DB table, or config file.
  - [] Will admin account be a separate route or just a seeded account?
  - [] Should guest cart be implemented?
 
