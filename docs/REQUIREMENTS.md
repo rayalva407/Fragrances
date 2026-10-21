@@ -89,7 +89,7 @@ As a shopper, I should be able to click on the different variant types and choos
 
 **US-1.4 --- Search Products**
 
-- While on the catalog page, I should be able to type in a search box and see all products that match by name or brand.
+- As a customer, I should be able to type in a search box so that I can see all products that match by name or brand.
 - If my search returns no returns, then I should see an empty state and a customer-friendly message letting me know that no products match that search criteria.
 - When clearing the search box, I should see all products in catalog are shown again.
 
@@ -343,9 +343,10 @@ As a logged-in user, I want to be able to select a single order from order histo
 
 **US-5.3 -- Order Status**
 
+As a shopper, I should be able to see my order status so that I know if it has been delivered.
+
 **Acceptance Criteria:**
-- As a shopper, I should be able to see my order status so that I know if it has been delivered.
-- Given that the status is updated, then the shopper sees the changes when page refreshes.
+- Given that the status is updated, as a shopper I should see the changes when page refreshes.
 
 **Priority:** Should\
 **Estimate:** 2-3 hrs
@@ -401,7 +402,7 @@ As an admin, I want to change the order status to delivered so that the customer
 
 **US-6.4 -- Seed Data**
 
-- As a developer, I want to use a script that loads realistic product data so that the application looks like a production-ready application.
+As a developer, I want to use a script that loads realistic product data so that the application looks like a production-ready application.
 
 **Acceptance Criteria:**
 
