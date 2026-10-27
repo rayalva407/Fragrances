@@ -149,16 +149,16 @@ This document pulls from the epic and user stories from the Requirements documen
 
 ---
 
-## 8. Cross-Cutting: Infrastructure & Polish  (~20 hrs)
+## 8. EP-7: Cross-Cutting: Infrastructure & Polish  (~20 hrs)
 
 | ID | Task | Est. |
 |----|------|------|
-| T-8.1 | Project scaffolding (Spring Boot + RN Web via Expo) | 3 |
-| T-8.2 | OpenAPI/Swagger setup | 2 |
-| T-8.3 | Deploy backend (Render) | 3 |
-| T-8.4 | Deploy frontend web | 3 |
-| T-8.5 | Mobile build + verification | 4 |
-| T-8.6 | README + architecture diagram + demo video | 5 |
+| T-7.1.1 | Project scaffolding (Spring Boot + RN Web via Expo) | 3 |
+| T-7.0.2 | OpenAPI/Swagger setup | 2 |
+| T-7.0.3 | Deploy backend (Render) | 3 |
+| T-7.0.4 | Deploy frontend web | 3 |
+| T-7.0.5 | Mobile build + verification | 4 |
+| T-7.0.6 | README + architecture diagram + demo video | 5 |
 
 ---
 
@@ -172,7 +172,7 @@ This document pulls from the epic and user stories from the Requirements documen
 | EP-4 Checkout & Payment | 25 |
 | EP-5 Orders | 12 |
 | EP-6 Admin | 20 |
-| Cross-cutting | 20 |
+| EP-7 Cross-cutting | 20 |
 | **Total** | **~161** |
 
 This sits inside the charter's 155–230 hour estimate — as
@@ -184,11 +184,11 @@ likely reality.
 
 ## 10. Suggested Build Order
 
-1. **T-8.1** (scaffolding) → **EP-1 Foundation** → US-1.1 → US-1.2
+1. **T-7.1** (scaffolding) → **EP-1 Foundation** → US-1.1 → US-1.2
 2. **EP-2** (auth) → **EP-3** (cart, including US-3.5 guest cart)
 3. **EP-4** (checkout — highest risk, do while you have momentum)
 4. **EP-5** (orders) → **EP-6** (admin)
-5. **T-8.2–T-8.6** (docs, deploy, polish) — interleave deploy early
+5. **T-7.2–T-7.6** (docs, deploy, polish) — interleave deploy early
    rather than leaving it all to the end
 
 ---
