@@ -153,7 +153,7 @@ This document pulls from the epic and user stories from the Requirements documen
 
 | ID | Task | Est. |
 |----|------|------|
-| T-7.1.1 | Project scaffolding (Spring Boot + RN Web via Expo) | 3 |
+| T-7.0.1 | Project scaffolding (Spring Boot + RN Web via Expo) | 3 |
 | T-7.0.2 | OpenAPI/Swagger setup | 2 |
 | T-7.0.3 | Deploy backend (Render) | 3 |
 | T-7.0.4 | Deploy frontend web | 3 |
@@ -184,11 +184,11 @@ likely reality.
 
 ## 10. Suggested Build Order
 
-1. **T-7.1** (scaffolding) → **EP-1 Foundation** → US-1.1 → US-1.2
+1. **T-7.0.1** (scaffolding) → **EP-1 Foundation** → US-1.1 → US-1.2
 2. **EP-2** (auth) → **EP-3** (cart, including US-3.5 guest cart)
 3. **EP-4** (checkout — highest risk, do while you have momentum)
 4. **EP-5** (orders) → **EP-6** (admin)
-5. **T-7.2–T-7.6** (docs, deploy, polish) — interleave deploy early
+5. **T-7.0.2–T-7.0.6** (docs, deploy, polish) — interleave deploy early
    rather than leaving it all to the end
 
 ---
